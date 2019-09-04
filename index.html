@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/crystal.css">
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="background-color:mediumblue; color:mediumvioletred;">
+            <div class="container">
+                <h1 class="title">Crystal Collector</h1>
+            </div>
+
+        </div>
+
+
+
+        <!-- Instructions -->
+        <div class="main-content">
+            <div class="card">
+                <div class="panel-header">
+                    <h3 id="test">Instructions</h3>
+                </div>
+                <div class="card-body">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to you total score</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total
+                        score goes above random number</p>
+                    <p>The value of each crystal is hidden from you until you click on it</p>
+                    <p>Each time the game starts the game will the values of each crystal</p>
+                </div>
+            </div>
+
+            <div class="card randomNum">
+                <h1><span id="randomNumber"></span></h1>
+            </div>
+            <div class="card counter">
+                <h1><span id="wins"></span></h1>
+                <h1><span id="losses"></span></h1>
+            </div>
+            <div class="card crystal">
+                <h1></h1>
+
+                <img src="https://d2f0ora2gkri0g.cloudfront.net/c0/68/c0687b8e-b022-445d-aeae-9718121ac73a.jpg"
+                    id="crystalOne">
+                <img src="https://d2f0ora2gkri0g.cloudfront.net/4b/c7/4bc7b3fb-5605-4196-b24a-4e3e0186a54f.jpg"
+                    id="crystalTwo">
+                <img src="https://d2f0ora2gkri0g.cloudfront.net/d0/d0/d0d0ee71-d31a-47f4-aee3-2ee89b02ad5d.jpg"
+                    id="crystalThree">
+                <img src="https://d2f0ora2gkri0g.cloudfront.net/17/56/1756bcdb-ab37-4691-bfa4-c81ccd25689b.jpg"
+                    id="crystalFour">
+
+            </div>
+
+        </div>
+        <div class="card score">
+            <h1>Score Number</h1>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+    </div>
+    <script text="script" src="assets/js/crystal.js"></script>
+
+
+</body>
+
+</html>
